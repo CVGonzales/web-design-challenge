@@ -1,0 +1,49 @@
+/* navbar styling  */
+a.navbar-brand{
+    margin-left: 40px;
+    padding: 10px;
+    background-color: rgb(77, 179, 162);
+    font-family: Georgia,'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* header styling */
+h3{
+    color: rgb(77, 179, 162);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+
+/* paragraph text styling */
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+ }
+
+/* body background styling */
+body{
+    background-color: rgb(223, 222, 222);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+
+/* small screen adjustments*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(77, 179, 162)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #ffffff;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
